@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+html
+{
+    --bg-color: white;
+    --text-color: black;
+}
+
+body.dark
+{
+    --bg-color: #00082F;
+    --text-color: white;
+}
+
+
+body
+{
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+    
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul li a
+{
+    background: #4644ed;
+    font-weight: 50px;
+    margin: 60px auto;
+    
+}
+
+ul li a:hover
+{
+    transition: background 400ms;
+
+}
